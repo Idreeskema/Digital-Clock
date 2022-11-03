@@ -17,3 +17,26 @@
     background-size: cover;
     
 }
+@media screen and (min-device-width: 712px) and (max-device-width: 1138px) {
+    .digitalClock {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+    }
+  }
+  @media screen and (min-device-width: 360px) and (max-device-width: 640px) {
+    .digitalClock {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    
+    @media screen and (min-device-width: 414px) and (max-device-width: 894px) {
+        .digitalClock {
+            position: absolute;
+            top: 40%;
+            left: 12%;
+        }
+    }
+  }
+  
